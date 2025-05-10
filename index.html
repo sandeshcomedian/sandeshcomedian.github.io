@@ -104,3 +104,153 @@
   </footer>
 </body>
 </html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sandesh Comedian</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      background: #f8f9fa;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      color: #222;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 2em 1em;
+      text-align: center;
+    }
+    nav {
+      margin-top: 1em;
+    }
+    nav a {
+      color: #ffc107;
+      text-decoration: none;
+      margin: 0 1em;
+      padding: 0.5em 1em;
+      border-radius: 4px;
+      transition: background 0.2s;
+    }
+    nav a:hover {
+      background: #ffc107;
+      color: #222;
+    }
+    main {
+      max-width: 900px;
+      margin: 2em auto;
+      background: #fff;
+      padding: 2em;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    }
+    h1, h2 {
+      color: #222;
+    }
+    .about img {
+      width: 160px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 1em;
+      box-shadow: 0 2px 8px rgba(44,62,80,0.14);
+    }
+    .gallery {
+      display: flex;
+      gap: 1em;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 2em 0;
+    }
+    .gallery img {
+      width: 180px;
+      border-radius: 8px;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.10);
+    }
+    .shows ul {
+      list-style: disc inside;
+    }
+    .contact {
+      margin-top: 2em;
+      text-align: center;
+    }
+    .social a {
+      margin: 0 0.5em;
+      color: #222;
+      font-size: 2em;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .social a:hover {
+      color: #0077b6;
+    }
+    footer {
+      text-align: center;
+      color: #888;
+      padding: 2em 1em;
+      font-size: 0.95em;
+      background: #eee;
+      margin-top: 2em;
+    }
+    @media (max-width: 650px) {
+      main { padding: 1em; }
+      .gallery { flex-direction: column; align-items: center; }
+      .gallery img { width: 90%; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sandesh Comedian</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#shows">Shows</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section id="about" class="about">
+      <img src="https://via.placeholder.com/160" alt="Sandesh Photo">
+      <h2>About Me</h2>
+      <p>Hi! I'm Sandesh, a stand-up comedian known for my quirky humor and energetic performances. 
+        I love connecting with people and spreading laughter everywhere I go. 
+        Catch me at my next show or follow me on social media for the latest updates and behind-the-scenes moments!</p>
+    </section>
+    <section id="shows" class="shows">
+      <h2>Upcoming Shows</h2>
+      <ul>
+        <li>May 25, 2025 – Bangalore Comedy Night</li>
+        <li>June 10, 2025 – Chennai Laugh Fest</li>
+        <li>June 22, 2025 – Hyderabad Haha Club</li>
+      </ul>
+    </section>
+    <section id="gallery" class="gallery-section">
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <img src="https://via.placeholder.com/180x120?text=Show+1" alt="Show 1">
+        <img src="https://via.placeholder.com/180x120?text=Show+2" alt="Show 2">
+        <img src="https://via.placeholder.com/180x120?text=Backstage" alt="Backstage">
+        <!-- Replace these links with your own images if you have them -->
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>For bookings and collaborations, email me at 
+        <a href="mailto:sandeshcomedian@email.com">sandeshcomedian@email.com</a>
+      </p>
+      <div class="social">
+        <a href="https://instagram.com/" title="Instagram" target="_blank">&#x1F47E;</a>
+        <a href="https://twitter.com/" title="Twitter" target="_blank">&#x1F426;</a>
+        <a href="https://youtube.com/" title="YouTube" target="_blank">&#x1F4FA;</a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Sandesh Comedian. All rights reserved.
+  </footer>
+</body>
+</html>
